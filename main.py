@@ -7,6 +7,7 @@ def add_todo():
     functions.add_todo(todo=st.session_state["add_todo"])
     st.session_state["add_todo"] = ""
 
+# Background image
 st.markdown("""
     <style>
         .stApp {
